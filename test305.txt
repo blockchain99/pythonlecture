@@ -1,0 +1,16 @@
+1.if file not exit -> error
+with open("file_name", "r") as file
+file.read()
+2. remove existing(not exit, create new), write new input.
+with open("file_name", "w") as file
+file.write("new contens are writen")
+3. append only at the end(no control for 'seek(0)' )
+with open("file_name", "as") as file
+file.write("append at the end of file.")
+4.if file not exit -> error, read and write, 
+seek(10) - at position 10, write content
+-> no seek() , from beginning write contents:
+with open("file_name", "r+") as file
+seek(10)
+file.write("at position 10 insert this content" )
+

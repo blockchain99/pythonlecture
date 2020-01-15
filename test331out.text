@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta property="og:image" content="https://www.rithmschool.com/assets/logos/rithm_logo-52c2ff4eb53876f905ff2d8b1d46b5ec737caa4d9f9acf4790dcd856f3ccc638.svg"/>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Spend 16 weeks learning JavaScript, Python, and React with up to 18 other students. Learn quickly with experienced instructors. No tuition until you&#39;re hired">
+  <meta name="author" content="Rithm School">
+
+
+  <title>The Rithm Blog</title>
+
+
+
+  <link rel="stylesheet" media="all" href="/assets/application-84f90791da100b26ea40e9ac25a82c79691a15378b836bb8ed22a886c6a23e0a.css" />
+
+  <!-- Add a stylesheet tag for the name of the action -->
+  <link rel="stylesheet" media="screen" href="/assets/main-4852d600e9cfdc7fe3c131b4686c100fd6a354b5fd46780e9abed8eec445c5e7.css" />
+  <link rel="stylesheet" media="screen" href="/assets/blog-c9d92c68c043b87ccaba79577a3af5df6eec4a420af989a8b74d697890503a7b.css" />
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-eb41ae8905bdd2b439d03b1628aaa345c177848bb8e6c36ea8c5a56cf03ef757.ico" />
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="AxSQ1SFSu6qJdtKbaT9ztl4Lexzc47/nCiRfWOhc1anvLW/0jz4LX1PfGtZ+9m5B6zins4Mdjs2rev+vu2MVXQ==" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<!-- DO NOT MODIFY -->
+<!-- Quora Pixel Code (JS Helper) -->
+<!-- End of Quora Pixel Code -->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '214663358944902');
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1"
+src="https://www.facebook.com/tr?id=214663358944902&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Fullstory script -->
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-T8LFJG2':true});</script>
+
+
+
+  <script src="/assets/application-9b4b3cce7511ac0464e0cdaed7693929a023903085a213e7cdb5975f6a9a0695.js"></script>
+  <script src="/assets/modernizr-43ece90ce3662a6bd3b00d7acdddd63c4a965f96d0b7e2b9738988f559971b3f.js"></script>
+
+<!-- start Mixpanel --><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+mixpanel.init("5080e5eebdaa906ad44bebec9a917acb");</script><!-- end Mixpanel -->
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-81714915-1', 'auto');
+  ga('require', 'GTM-T8LFJG2');
+  
+  ga('send', 'pageview');
+</script>
+
+</head>
+<body>
+
+
+
+  <a id="banner-alert" target="_blank" href="/admissions"> 
+<div data-event-name="click_cta" data-label="location" data-event-label="banner" class="container">
+    <p type="button" class="close" >&times;</p>
+    <span class="banner-text">Our January class has a waitlist - <u>we're currently enrolling for March!</u>  </span>
+  </div>
+</a>
+
+
+  <nav data-event-name="click_cta" data-label="location" data-event-label="navbar" id="mainNav" class="navbar navbar-default navbar-custom ">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span><i class="fa fa-2x fa-bars"></i>
+            </button>
+              
+            <div class="navbar-button">
+              <a class="navbar-brand" data-event-name="click_cta" data-label="page" data-event-label="homepage" href="/">
+                  <img height="45" alt="rithm school company logo" title="Rithm School Logo" src="/assets/logos/rithm_logo-52c2ff4eb53876f905ff2d8b1d46b5ec737caa4d9f9acf4790dcd856f3ccc638.svg" />
+</a>            </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="javascript:void(0)">
+                  Learn Full Time&nbsp;<span class="caret"></span>
+</a>                <ul class="dropdown-menu dropdown-menu-left">
+                    <li data-event-name="click_cta" data-label="page" data-event-label="program"><a id="#details" href="/program">Program Details</a>
+                    <li data-event-name="click_cta" data-label="page" data-event-label="admissions"><a id="#admissions" href="/admissions">Admissions and Course Dates</a></li>
+                    <li data-event-name="click_cta" data-label="page" data-event-label="program"><a id="#tuition" href="/tuition">Tuition</a>
+                    <li data-event-name="click_cta" data-label="page" data-event-label="curriculum"><a id="#curriculum" href="/curriculum">Curriculum</a></li>
+                    <li data-event-name="click_cta" data-label="page" data-event-label="company-projects"><a id="#company_projects" href="/company-projects">Company Projects</a></li>
+                    <li data-event-name="click_cta" data-label="page" data-event-label="outcomes"><a id="#outcomes" href="/outcomes">Job Support</a></li>
+                    <li data-event-name="click_cta" data-label="page" data-event-label="faq"><a id="#faq" href="/faq">FAQ</a></li>
+                  </ul>
+              </li>
+                <li data-event-name="coding-workshops">
+                  <a target="_blank" id="#workshops" href="/events">Free Workshops</a>
+                </li>
+                <li data-event-name="free-online-courses">
+                  <a id="#online-courses" href="/courses">Free Online Courses</a>
+                </li>
+                <li data-event-name="click_cta" data-label="page" data-event-label="partnerships">
+                  <a id="#partnerships" href="/partnerships">Partnerships</a>
+                </li>
+                <li>
+                    <a id="#team" href="/team">Our Team</a>
+                </li>
+                <li>
+                  <a id="#blog" href="/blog">Blog</a>
+                </li>
+                <li>
+                    <a class="apply-now btn" id="apply" data-event-name="apply_button_clicked" href="/apply">Apply Now</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</nav>
+
+
+<div class="container">
+  
+  <header>
+  <div class="begin-text">
+    <div class="row">
+      <h1 class="col-sm-12 heading">{&nbsp;The Rithm Blog.&nbsp;}</h1>
+    </div>
+  </div>
+</header>
+<form class="form-inline" action="/blog" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<div class="row">
+  <div class="form-group col-sm-6 col-sm-offset-3">
+    <div class="input-group blog-search">
+      <input type="text" name="term" id="term" autofocus="autofocus" class="form-control" placeholder="Search by author, title or content" />
+      <span class="input-group-btn">  
+        <input type="submit" name="commit" value="Search" class="btn btn-primary" />
+      </span>
+    </div>
+  </div>
+</div>
+</form>    <article>
+      <h4 class="section-heading">
+        <a href="/blog/react-hooks-intro">React Hooks! - An Introduction</a>
+      </h4>
+      <div class="card">
+        <time pubdate="" datetime="2019-10-22"></time>
+        <p>Hooks are here! At Rithm School we are constantly reviewing our curriculum and making sure that we are up to date on the latest technologies.  When we notice a new technology or technique rising in popularity (and also becoming a common question that interviewers ask), we have the ability to quickly incorporate it into what we are teaching.</p>
+
+<p>Since the introduction of hooks into React, we have clearly seen a strong interest in the community to use hooks in new React projects.  My goal is to give you a brief introduction to hooks and show you how they can be used instead of using class components with <code>setState</code>.</p>
+
+          <p><a href="/blog/react-hooks-intro">Continue Reading</a></p>
+        <h4 class="service-heading"><small>October 22, 2019</small></h4>
+      </div>
+    </article>
+    <article>
+      <h4 class="section-heading">
+        <a href="/blog/an-introduction-to-graphql-queries">An Introduction to GraphQL - Queries</a>
+      </h4>
+      <div class="card">
+        <time pubdate="" datetime="2019-10-15"></time>
+        <p>Welcome! If you&#39;re reading this, you have probably been told that GraphQL is one of, if not the best thing since the internet. Or maybe you&#39;ve just been working with REST for so long that you think there&#39;s a better way. Regardless of where you&#39;re coming from, we&#39;ll be introducing what GraphQL is, how it acts as an alternative to REST, and how to get started with queries.</p>
+
+          <p><a href="/blog/an-introduction-to-graphql-queries">Continue Reading</a></p>
+        <h4 class="service-heading"><small>October 15, 2019</small></h4>
+      </div>
+    </article>
+    <article>
+      <h4 class="section-heading">
+        <a href="/blog/alumni-spotlight-sandy">Alumni Spotlight: Sandy Cao</a>
+      </h4>
+      <div class="card">
+        <time pubdate="" datetime="2019-10-10"></time>
+        <p>With a background in fine art, proudly toting her senior superlative of “Most Artistic”, Sandy Cao didn’t consider herself the typical candidate for a coding bootcamp. She hadn’t worked a full-time job in nearly 3 years (as a business analyst at a fintech startup in New Jersey) before joining us as a student at Rithm School. However, during her time with that job, she taught herself SQL and the thrill of completing code stuck with her. Sandy took some time to discuss her job search, her experience at Rithm, and her wisdom for other women looking to break into the tech scene. </p>
+
+          <p><a href="/blog/alumni-spotlight-sandy">Continue Reading</a></p>
+        <h4 class="service-heading"><small>October 10, 2019</small></h4>
+      </div>
+    </article>
+    <article>
+      <h4 class="section-heading">
+        <a href="/blog/student-interview-pair-programming-and-company-projects">Student Interview: Pair Programming And Company Projects</a>
+      </h4>
+      <div class="card">
+        <time pubdate="" datetime="2019-09-03"></time>
+        <p>At Rithm, we believe that one of the best ways to prepare students for jobs as web developers is by giving them opportunities to work on real-world projects. Working on personal projects can be fun, but working in a team or on an existing code base gives students insights into the day-to-day challenges of a developer that they might not otherwise learn. Our 12th cohort is wrapping up their company projects with <a target="_blank" href="https://www.numero.ai/" rel="noopener noreferrer">Numero</a>, a modern financial platform that Members of Congress, Senate, and Presidential candidates rely on to manage the $4.5 billion in payment processing, accounting, and compliance for their political campaigns. Gabe and Joanna have been working as a pair, as well have Andrew and Chantal. We asked them to share their experience working together with us:</p>
+
+          <p><a href="/blog/student-interview-pair-programming-and-company-projects">Continue Reading</a></p>
+        <h4 class="service-heading"><small>September 03, 2019</small></h4>
+      </div>
+    </article>
+    <article>
+      <h4 class="section-heading">
+        <a href="/blog/getting-up-to-speed-on-a-production-code-base">Getting Acquainted With A Production Code Base</a>
+      </h4>
+      <div class="card">
+        <time pubdate="" datetime="2019-06-18"></time>
+        <p>At Rithm School, company projects have started.  If you’re not familiar with company projects, it’s a three week portion of our curriculum where students work with instructors and outside companies on a real production code base. It can be a challenging time for both students and instructors as we’re all working together on problems and code that we’ve never seen before.  But the challenge is definitely worth while.  It’s a great tool for teaching good coding practices and how to work with a team.  By the end of the three weeks, the students have a lot more confidence that they can contribute to a production code base.</p>
+
+          <p><a href="/blog/getting-up-to-speed-on-a-production-code-base">Continue Reading</a></p>
+        <h4 class="service-heading"><small>June 18, 2019</small></h4>
+      </div>
+    </article>
+    <article>
+      <h4 class="section-heading">
+        <a href="/blog/staff-spotlight-zach-derossette">Staff Spotlight - Zach DeRossette, Career Coach</a>
+      </h4>
+      <div class="card">
+        <time pubdate="" datetime="2019-05-22"></time>
+        <p>We’re excited to have Zach DeRossette join the Rithm team as our Career Coach! You can find him meeting with and supporting our students and alum throughout their job search. Here we learn a little bit more about Zach, his role on the team and his advice to job seekers (including spend less time applying online!)</p>
+
+          <p><a href="/blog/staff-spotlight-zach-derossette">Continue Reading</a></p>
+        <h4 class="service-heading"><small>May 22, 2019</small></h4>
+      </div>
+    </article>
+    <article>
+      <h4 class="section-heading">
+        <a href="/blog/student-interview-lena-ryoo">Student Interview: Lena Ryoo on Company Projects</a>
+      </h4>
+      <div class="card">
+        <time pubdate="" datetime="2019-05-15"></time>
+        <p>At Rithm, we believe that one of the best ways to prepare students for jobs as web developers is by giving them opportunities to work on real-world projects. Working on personal projects can be fun, but working in a team or on an existing code base gives students insights into the day-to-day challenges of a developer that they might not otherwise learn. Our 10th cohort recently completed their company projects, so we spoke with Lena to get their perspective on the experience.</p>
+
+          <p><a href="/blog/student-interview-lena-ryoo">Continue Reading</a></p>
+        <h4 class="service-heading"><small>May 15, 2019</small></h4>
+      </div>
+    </article>
+    <article>
+      <h4 class="section-heading">
+        <a href="/blog/debugging-like-a-scientist">Debugging Like a Scientist</a>
+      </h4>
+      <div class="card">
+        <time pubdate="" datetime="2019-04-29"></time>
+        <p>When you&#39;re first learning how to code, error messages can be intimidating. Because of this, beginners sometimes ignore error messages entirely. Instead, they will favor more of a &quot;guess-and-check&quot; approach to fixing bugs. While we don&#39;t encourage this approach at Rithm, we recognize that in the context of solving small, isolated problems, it can be successful. But when it comes to working on larger applications, professional engineers need a more sophisticated set of tools to fix problems.</p>
+
+<p>Fortunately, one of the most successful strategies for fixing errors is also one of the oldest: applying the <b>scientific method</b>. In this post, I&#39;d like to review the scientific method, and highlight how you can use it to solve programming problems more quickly.</p>
+
+          <p><a href="/blog/debugging-like-a-scientist">Continue Reading</a></p>
+        <h4 class="service-heading"><small>April 29, 2019</small></h4>
+      </div>
+    </article>
+    <article>
+      <h4 class="section-heading">
+        <a href="/blog/benefits-of-code-reviews">The Benefits of Code Reviews</a>
+      </h4>
+      <div class="card">
+        <time pubdate="" datetime="2019-03-29"></time>
+        <p>Code reviews can be a common practice for many developers: another engineer, often more experienced with the language, library, or code base being used, meets with the author-developer to read through their work, ask questions, and provide suggestions for improvement.</p>
+
+<p>This process can be a positive experiment for many, but often, it can be challenging to be on the receiving end of a review. These can descend into demands for  needless uniformity of style (&quot;no! it&#39;s super-important to align your code <em>just so</em>&quot;) or they can create uncomfortable or harmful power dynamics between peers about whose style or ideas are &quot;better.&quot; At their very worst, code reviews can merely provide cover for biased viewpoints or microaggressions directed toward developers who may have less power in organizations.</p>
+
+<p>While we recognize that not all parts of this practice are always helpful, we do encourage a lot of code reviews for our students here at Rithm. We think that, especially for newer developers in a class, these can provide useful feedback and lessons that can be difficult to get from lectures or books, and can also be hard to notice just from reading other code.</p>
+
+          <p><a href="/blog/benefits-of-code-reviews">Continue Reading</a></p>
+        <h4 class="service-heading"><small>March 29, 2019</small></h4>
+      </div>
+    </article>
+    <article>
+      <h4 class="section-heading">
+        <a href="/blog/three-more-js-mistakes-that-beginners-make">Three More JavaScript Mistakes That Beginners Make</a>
+      </h4>
+      <div class="card">
+        <time pubdate="" datetime="2019-03-07"></time>
+        <p>Despite its best intentions, JavaScript is not the most beginner friendly language. After working with thousands of beginners, here are a few common mistakes we see with applicants and students.</p>
+
+<p>A little while back, we wrote a post on <a target="_blank" href="/blog/three-more-js-mistakes-that-beginners-make" rel="noopener noreferrer">the top four javascript mistakes beginners make</a>. In this post, we&#39;ll be adding a few more we&#39;ve seen to help you better prepare when learning the basics!</p>
+
+<h3><strong>1. Dot vs Bracket notation</strong></h3>
+
+<p>Let’s imagine we have the following object,</p>
+<div class="CodeRay">
+  <div class="code"><pre><span class="keyword">var</span> instructorData = {
+  <span class="key">firstName</span>: <span class="string"><span class="delimiter">&quot;</span><span class="content">Elie</span><span class="delimiter">&quot;</span></span>,
+  <span class="key">employer</span>: <span class="string"><span class="delimiter">&quot;</span><span class="content">Rithm School</span><span class="delimiter">&quot;</span></span>,
+  <span class="key">favoriteNumber</span>: <span class="integer">42</span>,
+  <span class="key">isHilarious</span>: <span class="predefined-constant">false</span>
+};
+</pre></div>
+</div>
+
+<p>When accessing a key in an object, there are two possible ways to go about it.</p>
+
+<ul>
+<li><p>dot notation</p></li>
+<li><p>bracket notation</p></li>
+</ul>
+
+<p>Knowing when to use which one is essential, so here is a good rule of thumb to follow.If you know with 100% certainty what the key is - always use dot. If you are not 100% sure what the key will be, you <strong>must</strong> use bracket.</p>
+
+          <p><a href="/blog/three-more-js-mistakes-that-beginners-make">Continue Reading</a></p>
+        <h4 class="service-heading"><small>March 07, 2019</small></h4>
+      </div>
+    </article>
+  <p class="text-center">
+      <nav class="pagination">
+    
+    
+        <span class="page current">
+  1
+</span>
+
+        <span class="page">
+  <a rel="next" href="/blog?page=2">2</a>
+</span>
+
+        <span class="page">
+  <a href="/blog?page=3">3</a>
+</span>
+
+        <span class="page">
+  <a href="/blog?page=4">4</a>
+</span>
+
+        <span class="page">
+  <a href="/blog?page=5">5</a>
+</span>
+
+        <span class="page gap">&hellip;</span>
+
+    <span class="next">
+  <a rel="next" href="/blog?page=2">Next &rsaquo;</a>
+</span>
+
+    <span class="last">
+  <a href="/blog?page=10">Last &raquo;</a>
+</span>
+
+  </nav>
+
+  </p>
+<p class="text-center">
+    <a class="apply-now" href="/apply">Apply Now</a>
+</p>
+
+
+</div>
+
+
+<!-- Chatra {literal} -->
+<script>
+    var countries = ["Australia", "Canada", "United States", "United Kingdom", "Ireland", "New Zealand", "Israel", "Sweden", "Denmark", "Netherlands", "Hong Kong", "Finland", "Austria", "Norway", "Germany","Singapore"]
+    ChatraID = 'B32ypJxDbLRq5RhQ2';
+    ChatraGroupID = 'eXDapncP5vKAcBDr5';
+    var key = "3c90912af13c55003cd9990c1db175ad"
+    // if they are not in the array we cache that in localStorage and noop
+    if(localStorage.getItem("nvc") === "true"){
+    }
+    // if they are in the array just load the Chatra box
+    else if(localStorage.getItem("vc") === "true"){
+      (function(d, w, c) {
+                var n = d.getElementsByTagName('script')[0],
+                    s = d.createElement('script');
+                w[c] = w[c] || function() {
+                    (w[c].q = w[c].q || []).push(arguments);
+                };
+                s.async = true;
+                s.src = (d.location.protocol === 'https:' ? 'https:': 'http:')
+                    + '//call.chatra.io/chatra.js';
+                n.parentNode.insertBefore(s, n);
+            })(document, window, 'Chatra');
+    // otherwise get their location and set them as vc or nvc if they are in the array or not
+    } else {
+       $.getJSON("https://api.ipstack.com/check?access_key=" + key).then(function(data){
+        if(countries.includes(data.country_name)){
+            localStorage.setItem("vc", true)
+            (function(d, w, c) {
+                var n = d.getElementsByTagName('script')[0],
+                    s = d.createElement('script');
+                w[c] = w[c] || function() {
+                    (w[c].q = w[c].q || []).push(arguments);
+                };
+                s.async = true;
+                s.src = (d.location.protocol === 'https:' ? 'https:': 'http:')
+                    + '//call.chatra.io/chatra.js';
+                n.parentNode.insertBefore(s, n);
+            })(document, window, 'Chatra');
+        } else {
+          localStorage.setItem("nvc") === "true"
+        }
+    })
+}
+   
+</script>
+<!-- /Chatra {/literal} -->
+<script>
+window.ChatraSetup = {
+    colors: {
+        buttonText: '#ffffff', // chat button text color
+        buttonBg: '#F86161'    // chat button background color
+    }
+};
+
+// // REMOVED when parallax was added
+// We only want to delay the chat on the homepage
+// so the animation has time to load.
+// if (window.location.pathname === '/') {
+//   Chatra("hide");
+//   setTimeout(function() {
+//     Chatra("show");
+//   }, 2600);
+// }
+</script>
+
+<footer data-event-name="click_cta" data-label="location" data-event-label="page_bottom">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-4 text-center">
+            <a style="padding:0;" class="footer-logo" href="/">
+              <img class="logo" width="120" height="58" alt="rithm school company logo" title="Rithm School Logo" src="/assets/logos/rithm_logo-52c2ff4eb53876f905ff2d8b1d46b5ec737caa4d9f9acf4790dcd856f3ccc638.svg" />
+</a>            <span><a class="text-muted faq-url" href="/cdn-cgi/l/email-protection#a6cfc8c0c9e6d4cfd2cecbd5c5cec9c9ca88c5c9cb"><span class="__cf_email__" data-cfemail="d1b8bfb7be91a3b8a5b9bca2b2b9bebebdffb2bebc">[email&#160;protected]</span></a></span>
+        </div>
+        <div class="col-md-6 col-sm-8">
+          <div class="text-center email_signup_heading">
+            <p data-event-name="click_email_link" class="lead">Interested in meetups, courses and free content?</p>
+              <button name="button" type="submit" class="btn" id="mailing-list" data-event-name="join_mailing_list">Join mailing list</button>
+          </div>
+          <p class="lead text-center thank_you"></p>
+        </div>
+        <div class="col-md-3 col-sm-4 text-center">
+          <ul class="list-inline social-buttons">
+              <li data-event-name="click_cta" data-label="click_social_link" data-event-label="twitter"><a target="_blank" href="https://www.twitter.com/rithmschool"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li data-event-name="click_cta" data-label="click_social_link" data-event-label="facebook"><a target="_blank" href="https://www.facebook.com/rithmschool"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li data-event-name="click_cta" data-label="click_social_link" data-event-label="linkedin"><a target="_blank" href="https://www.linkedin.com/company/rithm-school"><i class="fa fa-linkedin"></i></a>
+              </li>
+          </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-12  text-center">
+          <a class="text-muted" href="/privacy">Privacy Policy</a> |
+          <a class="text-muted" href="/terms">Terms of Service</a>
+          <span class="copyright">&copy; Rithm Inc. 500 Sansome Street Suite 300 San Francisco, CA 94111. All rights reserved. </span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- link that opens popup -->
+<a style="display:none;" class="popup-with-form" href="#unlock-form">Open form</a>
+
+<!-- form itself -->
+<div class="thank_you"></div>
+<div class="container">
+  <form id="unlock-form" class="card mfp-hide white-popup-block" >
+<input type="hidden" name="authenticity_token" id="authenticity_token" value="02MBPQCLnWKLbIPMUD/331OMVChIKEQBzHCQuQ5rbL8/Wv4cructl1HFS4FH9uoo5r+IhxfWdSttLjBOXVSsSw==" />  <div id="modal-email-known" style="display:none;">
+    <h1 class="text-center">Signed up already? Please enter your email to confirm.</h1>
+    <div class="email-errors text-center"></div>
+    <hr class="modal--bar">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8">
+        <div class="form-group">
+          <input class="form-control" placeholder="Email" type="email" id="confirm-email-input">
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+    </div>
+    <button id="confirm-email" type="submit" class="btn btn-xl">Sign In</button>
+    <div class="text-center">
+      <a href="javascript:void(0)" style="margin-top:-20px; display:block;" class="modal-go-back">Go Back</a>
+    </div>
+  </div>
+  <div id="modal-first-part" class="row">
+    <h1 class="text-center">Get 200+ hours of free content, tutorials, and screencasts</h1>
+      <div class="col-sm-offset-2 col-sm-8">
+        <hr class="modal--bar">
+          <h5 class="text-center">Share your email, and we'll give you a confirmation code to unlock all of our materials. No spam, we promise.</h5>
+          <div class="errors text-center"></div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input autofocus="autofocus" required="required" class="form-control" placeholder="First Name" type="text" name="first" id="first">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <input required="required" class="form-control" placeholder="Last Name" type="last" name="last" id="last">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+            </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="form-group">
+                <input class="form-control" placeholder="Email Address" required="required" type="email" name="email" id="email">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="next-button btn btn-xl">Next</button>
+          <a class="text-center email-known" href="javascript:void(0)">Already signed up?</a>
+    </div>
+  </div>
+    <div id="modal-second-part" style="display:none;">
+      <h1 class="text-center">Tell us more about yourself</h1>
+        <div class="col-sm-offset-2 col-sm-8">
+          <hr class="modal--bar">
+          <h5 class="text-center">Please answer these two questions to help us build the perfect Rithm experience for you.</h5>
+          <div class="errors text-center"></div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="form-group">
+            How would you define your skill as a developer?
+            <label for="Beginner"><input type="radio" class="radio" name="skill" id="Beginner" value='Beginner' required checked/> Beginner</label>
+            <label for="Intermediate"><input type="radio" class="radio" name="skill" id="Intermediate" value='Intermediate'/>Intermediate </label>
+            <label for="Advanced"><input type="radio" class="radio" name="skill" id="Advanced" value='Advanced'>Advanced </label>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="form-group">
+            Would you like to learn more about Rithm School's in-person courses and how to apply?
+            <label for="yes"><input type="radio" class="radio" name="learn" id="yes" value="Yes" required checked/> Yes</label>
+            <label for="no"><input type="radio" class="radio" name="learn" id="no" value="No" > No</label>
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-xl">Get Content</button>
+    </div>
+  </div>
+      <div id="modal-third-part" style="display:none;">
+        <h1 class="text-center"></h1>
+          <div class="col-sm-offset-2 col-sm-8">
+            <hr class="modal--bar">
+            <h5 class="text-center"></h5>
+          </div>
+      </div>
+  </form>
+  </div>
+
+
+
+
+<!-- Google Code for Purchase Conversion Page -->
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
